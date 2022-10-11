@@ -4,11 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BigBoyButton from './goofy';
+import Header from './Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Header />
     <App />
+    <div className='text-center'>
+    <BigBoyButton />
+    </div>
   </React.StrictMode>
 );
 

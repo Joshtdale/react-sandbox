@@ -1,12 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
-
 import { useState } from 'react';
 
 let state = {
   Text: 'FUUUUUCKCKKKKKkkkkkkkkkk Double fuckckckckkkkkckckk',
   number: 0
 }
+
 
 function MyButton() {
   const [count, setCount] = useState(0);
@@ -39,6 +39,8 @@ export default function MyApp() {
       
       </div>
       <h1 className='bg-warning m-5 rounded-circle'>{state.Text}</h1>
+    {/* <input type="text" onChange={e} */}
+
     </div>
   );
 }
